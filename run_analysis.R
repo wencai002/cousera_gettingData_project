@@ -32,7 +32,7 @@ names(rawData)[2]<-"activity"
 
 ###Step2 
 ##change the value of character from factor to character
-rawData[,2]<-as.character(rawData[,2])
+features[,2]<-as.character(features[,2])
 ##replace the colnames
 for (i in 3:(ncol(rawData))){
     names(rawData)[i]<-features[i-2,2]
