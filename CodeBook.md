@@ -12,7 +12,7 @@ This Data CodeBook is used to explain the dataset MeanData.txt. This dataset has
 * subject_test: 2947rows, 1column
 * x_test: 2947rows (correspond to subject_test), 561columns (correspond to features) --> one observation is one subject
 * y_test: 2947rows (correspond to subject_test), 1column --> one observation is one subject, value corresponds to actitivy
-* 3 "*_train" files analog to the last 3 datasets, only difference is with 7352 observations this time
+* 3 "%_train" files analog to the last 3 datasets, only difference is with 7352 observations this time
 ## Cleaning: start the data cleaning process based on the requirements
 ### main idea is to make "subject+activity+feature" the "key" of the dataset
 1) put the 3 "%_test" and the other 3 related "%_train" together, so that we get 10299 observations altogether
